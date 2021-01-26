@@ -1,0 +1,105 @@
+.hoverWrapper h1 {
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: whitesmoke;
+  float: right;
+  padding-right: 20px;
+}
+.hoverWrapper h2 {
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: whitesmoke;
+  float: left;
+  padding-left: 20px;
+}
+.hoverWrapper #hoverShow1 h1 {
+  float: none;
+  text-align: center;
+  font-size: 36px;
+  padding-top: 25px;
+}
+.hoverWrapper:hover #hoverShow1 {
+  display: block;
+}
+
+.hoverWrapper #hoverShow1 {
+  display: none;
+  position: absolute;
+  color: white;
+  background-color: black;
+  width: 100%;
+  height: 100%;
+  left: auto;
+  top: auto;
+  opacity: 70%;
+}
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.left {
+  left: 0;
+  background-color: #09460e;
+}
+
+.right {
+  right: 0;
+  background-color: whitesmoke;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.right-centered {
+  position: relative;
+  top: 35%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+  text-align: left;
+}
+
+.centered img {
+  border-radius: 50%;
+}
+
+.centered h1 {
+  font-size: 48px;
+  color: whitesmoke;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.centered h2 {
+  font-size: 36px;
+  color: whitesmoke;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 5px;
+}
+
+.right-centered h2 {
+  font-size: 30px;
+  color: #09460e;
+  padding-top: 100px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.ul {
+  list-style-type: circle;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.gallery img {
+  display: inline;
+  position: absolute;
+  padding: 25px;
+}
