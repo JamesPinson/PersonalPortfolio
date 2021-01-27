@@ -5,12 +5,12 @@
   float: right;
   padding-right: 20px;
 }
-.hoverWrapper h2 {
+div.centered h3 {
   font-size: 20px;
   font-family: Arial, Helvetica, sans-serif;
   color: whitesmoke;
-  float: left;
-  padding-left: 20px;
+  align-content: center;
+  padding: 20px;
 }
 .hoverWrapper #hoverShow1 h1 {
   float: none;
@@ -31,7 +31,7 @@
   height: 100%;
   left: auto;
   top: auto;
-  opacity: 70%;
+  opacity: 90%;
 }
 .split {
   height: 100%;
@@ -61,9 +61,18 @@
   text-align: center;
 }
 
+.centered a {
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+.centered a:hover {
+  text-decoration: underline;
+}
+
 .right-centered {
   position: relative;
-  top: 35%;
+  top: 43%;
   left: 60%;
   transform: translate(-50%, -50%);
   text-align: left;
@@ -89,7 +98,7 @@
 .right-centered h2 {
   font-size: 30px;
   color: #09460e;
-  padding-top: 100px;
+  padding-top: 25px;
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -98,8 +107,37 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.gallery img {
-  display: inline;
-  position: absolute;
-  padding: 25px;
+li {
+  width: 75%;
+  padding: 10px;
+}
+
+p {
+  margin: initial;
+  margin-right: initial;
+  position: relative;
+  width: 75%;
+  padding: 10px;
+}
+
+div.gallery {
+  margin: 30px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+  padding: 20px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
 }
