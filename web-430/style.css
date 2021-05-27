@@ -1,0 +1,120 @@
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #09460e;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  border-bottom: 1px solid whitesmoke;
+  box-shadow: 10px 10px gray;
+}
+
+nav li {
+  display: inline;
+  float: left;
+  border-right: 1px solid whitesmoke;
+}
+
+nav a {
+  display: block;
+  color: whitesmoke;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 24px;
+  font-family: Impact, Haettenschweiler, Arial, sans-serif;
+}
+
+nav li a:hover {
+  background-color: grey;
+}
+
+div.centered h3 {
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: whitesmoke;
+  align-content: center;
+  padding: 20px;
+}
+
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.left {
+  left: 0;
+  background-color: #09460e;
+}
+
+.right {
+  right: 0;
+  background-color: whitesmoke;
+  padding-top: 0;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.centered a {
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+.centered a:hover {
+  text-decoration: underline;
+}
+
+.right-centered {
+  position: relative;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: left;
+}
+
+.centered img {
+  border-radius: 50%;
+}
+
+.centered h1 {
+  font-size: 48px;
+  color: whitesmoke;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.centered h2 {
+  font-size: 36px;
+  color: whitesmoke;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 5px;
+}
+
+.right-centered h2 {
+  font-size: 30px;
+  color: #09460e;
+  padding-top: 0px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+div.card {
+  align-content: center;
+  float: left;
+  display: inline-table;
+  padding-left: 60px;
+  padding-bottom: 35px;
+}
