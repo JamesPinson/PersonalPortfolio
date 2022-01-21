@@ -108,7 +108,7 @@ div.centered h3 {
 
 .right-centered {
   position: relative;
-  top: 43%;
+  top: 54%;
   left: 60%;
   transform: translate(-50%, -50%);
   text-align: left;
@@ -161,7 +161,7 @@ div.gallery {
   border: 1px solid #ccc;
   float: left;
   width: 180px;
-  padding: 20px;
+  padding: 15px;
 }
 
 div.gallery:hover {
